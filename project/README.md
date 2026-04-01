@@ -92,6 +92,11 @@
 ### Описание файлов
 
 main.py - файл с кодом LLM-ассистента 
-syte.py - стримлит для RAG
+
+streamlit.zip - стримлит для RAG + main.py
+
 df_indexes.pkl - файл, в котором хранятся списки с запрещенными словами и два хранилища для Database и Database-2 (т. е. faiss_database и faiss_database_2)
+
 models.zip - обученная модель классификатор для определения вопроса (RAG или SQL)
+
+testing_with_answers - benchmark
